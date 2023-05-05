@@ -3,9 +3,9 @@ console.log("test")
 const main = document.querySelector("main");
 
 
-page("file:///C:/Users/btodorov/Documents/Visual%20Studio%20Code/SoftUni%20JS%20Advanced/13%20Routing%20-%20Lab/", showHome);
-page("file:///C:/Users/btodorov/Documents/Visual%20Studio%20Code/SoftUni%20JS%20Advanced/13%20Routing%20-%20Lab/catalog", showCatalog);
-page("file:///C:/Users/btodorov/Documents/Visual%20Studio%20Code/SoftUni%20JS%20Advanced/13%20Routing%20-%20Lab/about", showAbout);
+page("/", showHome);
+page("/catalog", showCatalog);
+page("/about", showAbout);
 
 page.start();
 
