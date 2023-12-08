@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 body {
@@ -9,15 +10,153 @@ body {
 
 h1 {
     font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: JetBrains Mono, Courier, monospace;
+    text-align: left;
 }
 
 h2 {
     font-family: Gloria Hallelujah, cursive;
 }
-
+.welcome h2 {
+    font-size: 2rem;
+}
+.welcome h3 {
+    font-size: 1.5rem;
+}
 
 .enter {
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+.section-icon {
+    font-size: 3.5rem;
+    text-align: center;
+}
+.section-title {
     font-size: 3rem;
     text-align: center;
+}
+#about h4 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-align: center;
+}
+#about p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.contacts h5 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.contacts-info li {
+    font-size: 1.5rem;
+}
+.contacts-info i {
+    font-size: 3rem;
+}
+
+.experience-stats h3 {
+    font-size: 4rem;
+}
+.experience-stats span {
+    font-size: 1.25rem;
+}
+.why-me {
+    font-size: 1.25rem;
+}
+.why-me span {
+    font-size: 1rem;
+}
+
+#tech-skills h4 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-align: center;
+}
+#tech-skills li {
+    font-size: 1.25rem;
+}
+
+#education h4 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-align: center;
+}
+#education h5 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#education h6 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+#education li {
+    font-size: 1rem;
+}
+
+#experience h4 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-align: center;
+}
+#experience h5 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+}
+#experience h6 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#projects h4 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-align: center;
+}
+#projects h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#projects h6 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+}
+#certificates h4 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-align: center;
+}
+.trophy {
+    font-size: 3rem;
+}
+
+.gradient, .exp-gradient {
+    background: linear-gradient(90deg, #001572, #6c78e0, #360174);
+    background-size: 200% 200%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
