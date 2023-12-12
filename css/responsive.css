@@ -1,5 +1,8 @@
 
 @media (max-width: 640px) {
+    html,body{
+        overflow-x: hidden;
+    }
     main {
         margin: 2rem;
     }
@@ -19,16 +22,16 @@
         font-size: 4rem;
     }
 
-    header, footer {
-        display: none;
-        /* gap: 1rem;   */
+    header {
+        gap: 1rem;  
     }
-    /* header ul {
+    header ul {
         flex-wrap: wrap;
     }
     header li {
         font-size: 0.8rem;
-    } */
+        width: 30%;
+    }
 
     .section-icon {
         font-size: 3rem;
@@ -126,6 +129,9 @@
 }
 
 @media (max-width: 390px) {
+    html,body{
+        overflow-x: hidden;
+    }
     main {
         margin: 2rem;
     }
@@ -145,16 +151,16 @@
         font-size: 4rem;
     }
 
-    header, footer {
-        display: none;
-        /* gap: 1rem;   */
+    header {
+        gap: 1rem;  
     }
-    /* header ul {
+    header ul {
         flex-wrap: wrap;
     }
     header li {
         font-size: 0.8rem;
-    } */
+        width: 30%;
+    }
 
     .section-icon {
         font-size: 3rem;
@@ -252,6 +258,9 @@
 }
 
 @media (max-width: 360px) {
+    html,body{
+        overflow-x: hidden;
+    }
     main {
         margin: 2rem;
     }
@@ -271,16 +280,16 @@
         font-size: 4rem;
     }
 
-    header, footer {
-        display: none;
-        /* gap: 1rem;   */
+    header {
+        gap: 1rem;  
     }
-    /* header ul {
+    header ul {
         flex-wrap: wrap;
     }
     header li {
         font-size: 0.8rem;
-    } */
+        width: 30%;
+    }
 
     .section-icon {
         font-size: 3rem;
