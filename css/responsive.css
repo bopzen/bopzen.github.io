@@ -76,6 +76,9 @@
     #enterlink {
         font-size: 10rem;
     }
+    header {
+        width: 100vw;
+    }
     header li {
         font-size: 2.5rem;
         text-align: center;
@@ -105,6 +108,9 @@
         font-size: 4rem;
     }
     .why-me li {
+        font-size: 3rem;
+    }
+    .why-me span {
         font-size: 3rem;
     }
     .contacts-card {
@@ -154,13 +160,13 @@
         font-size: 2.5rem;
     }
     #projects h4 {
+        font-size: 3.5rem;
+    }
+    #projects h5 {
         font-size: 3rem;
     }
-    #projects h5 {
+    #projects h6 {
         font-size: 2.5rem;
-    }
-    #projects h5 {
-        font-size: 2rem;
     }
     #projects li {
         font-size: 2rem;
@@ -175,6 +181,7 @@
         width: 30%;
     }
     footer {
+        width: 100vw;
         font-size: 2.5rem;
     }
 }
@@ -198,6 +205,9 @@
     #enterlink {
         font-size: 10rem;
     }
+    header {
+        width: 100vw;
+    }
     header li {
         font-size: 2.5rem;
         text-align: center;
@@ -227,6 +237,9 @@
         font-size: 4rem;
     }
     .why-me li {
+        font-size: 3rem;
+    }
+    .why-me span {
         font-size: 3rem;
     }
     .contacts-card {
@@ -276,13 +289,13 @@
         font-size: 2.5rem;
     }
     #projects h4 {
+        font-size: 3.5rem;
+    }
+    #projects h5 {
         font-size: 3rem;
     }
-    #projects h5 {
+    #projects h6 {
         font-size: 2.5rem;
-    }
-    #projects h5 {
-        font-size: 2rem;
     }
     #projects li {
         font-size: 2rem;
@@ -297,6 +310,7 @@
         width: 30%;
     }
     footer {
+        width: 100vw;
         font-size: 2.5rem;
     }
 }
