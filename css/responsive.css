@@ -1,4 +1,5 @@
-@media (max-width: 412px) {
+
+@media (max-width: 640px) {
     main {
         margin: 2rem;
     }
@@ -6,46 +7,47 @@
         margin-top: 4rem;
     }
     #welcome h1 {
-        font-size: 2.5rem;
+        font-size: 0.8rem;
     }
     #welcome h3 {
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     #welcome h2 {
-        font-size: 6rem;
+        font-size: 2rem;
     }
     #enterlink {
-        font-size: 10rem;
+        font-size: 4rem;
     }
     header {
-        display: none;
+        gap: 1rem;
+   
+    }
+    header ul {
+        flex-wrap: wrap;
+    }
+    header li {
+        font-size: 0.8rem;
     }
     .section-icon {
-        font-size: 6rem;
+        font-size: 3rem;
     }
     .section-title {
-        font-size: 6rem;
+        font-size: 2.5rem;
     }
     #about h4 {
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     #about p, p {
-        font-size: 3rem;
-    }
-    h4 {
-        font-size: 4rem;
-    }
-    h5 {
-        font-size: 4rem;
+        font-size: 1rem;
     }
     .contacts h5 {
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     .why-me li {
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .why-me span {
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .contacts-card {
         flex-direction: column-reverse;
@@ -54,56 +56,60 @@
         width: 70%;
     }
     .contacts-info li {
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .experience-stats h3 {
-        font-size: 8rem;
+        font-size: 3.5rem;
     }
     .experience-stats span {
-        font-size: 2rem;
+        font-size: 0.7rem;
     }
     .languages .tech-logos {
         flex-wrap: wrap;
         justify-content: center;
     }
     #tech-skills h4 {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     #tech-skills li {
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+    .tech-logos img {
+        width: 100%;
+        height: 3rem;
     }
     #education h4 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
     #education h5 {
-        font-size: 3rem;
+        font-size: 1.25rem;
     }
     #education h6 {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     #education li {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     #experience h4 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
     #experience h5 {
-        font-size: 3rem;
+        font-size: 1.25rem;
     }
     #experience h6 {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     #projects h4 {
-        font-size: 3.5rem;
+        font-size: 1.25rem;
     }
     #projects h5 {
-        font-size: 3rem;
+        font-size: 0.9rem;
     }
     #projects h6 {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     #projects li {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .project-images-container {
         margin: 1rem 0;
@@ -113,13 +119,10 @@
     }
     .certificate-card {
         width: 30%;
-    }
-    footer {
-        display: none;
     }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 400px) {
     main {
         margin: 2rem;
     }
@@ -127,46 +130,46 @@
         margin-top: 4rem;
     }
     #welcome h1 {
-        font-size: 2.5rem;
+        font-size: 0.8rem;
     }
     #welcome h3 {
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     #welcome h2 {
-        font-size: 6rem;
+        font-size: 2rem;
     }
     #enterlink {
-        font-size: 10rem;
+        font-size: 4rem;
     }
     header {
-        display: none;
+        gap: 1rem;  
+    }
+    header ul {
+        flex-wrap: wrap;
+    }
+    header li {
+        font-size: 0.8rem;
     }
     .section-icon {
-        font-size: 6rem;
+        font-size: 3rem;
     }
     .section-title {
-        font-size: 6rem;
+        font-size: 2.5rem;
     }
     #about h4 {
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     #about p, p {
-        font-size: 3rem;
-    }
-    h4 {
-        font-size: 4rem;
-    }
-    h5 {
-        font-size: 4rem;
+        font-size: 1rem;
     }
     .contacts h5 {
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     .why-me li {
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .why-me span {
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .contacts-card {
         flex-direction: column-reverse;
@@ -175,56 +178,60 @@
         width: 70%;
     }
     .contacts-info li {
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .experience-stats h3 {
-        font-size: 8rem;
+        font-size: 3.5rem;
     }
     .experience-stats span {
-        font-size: 2rem;
+        font-size: 0.7rem;
     }
     .languages .tech-logos {
         flex-wrap: wrap;
         justify-content: center;
     }
     #tech-skills h4 {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     #tech-skills li {
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+    .tech-logos img {
+        width: 100%;
+        height: 3rem;
     }
     #education h4 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
     #education h5 {
-        font-size: 3rem;
+        font-size: 1.25rem;
     }
     #education h6 {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     #education li {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     #experience h4 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
     #experience h5 {
-        font-size: 3rem;
+        font-size: 1.25rem;
     }
     #experience h6 {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     #projects h4 {
-        font-size: 3.5rem;
+        font-size: 1.25rem;
     }
     #projects h5 {
-        font-size: 3rem;
+        font-size: 0.9rem;
     }
     #projects h6 {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     #projects li {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .project-images-container {
         margin: 1rem 0;
@@ -235,7 +242,126 @@
     .certificate-card {
         width: 30%;
     }
-    footer {
-        display: none;
+}
+
+@media (max-width: 360px) {
+    main {
+        margin: 2rem;
+    }
+    #welcome {
+        margin-top: 4rem;
+    }
+    #welcome h1 {
+        font-size: 0.8rem;
+    }
+    #welcome h3 {
+        font-size: 1.5rem;
+    }
+    #welcome h2 {
+        font-size: 2rem;
+    }
+    #enterlink {
+        font-size: 4rem;
+    }
+    header {
+        gap: 1rem;
+    }
+    header ul {
+        flex-wrap: wrap;
+    }
+    header li {
+        font-size: 0.8rem;
+    }
+    .section-icon {
+        font-size: 3rem;
+    }
+    .section-title {
+        font-size: 2.5rem;
+    }
+    #about h4 {
+        font-size: 1.5rem;
+    }
+    #about p, p {
+        font-size: 1rem;
+    }
+    .contacts h5 {
+        font-size: 1.5rem;
+    }
+    .why-me li {
+        font-size: 1rem;
+    }
+    .why-me span {
+        font-size: 1rem;
+    }
+    .contacts-card {
+        flex-direction: column-reverse;
+    }
+    .profile-picture-container {
+        width: 70%;
+    }
+    .contacts-info li {
+        font-size: 1rem;
+    }
+    .experience-stats h3 {
+        font-size: 3.5rem;
+    }
+    .experience-stats span {
+        font-size: 0.7rem;
+    }
+    .languages .tech-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #tech-skills h4 {
+        font-size: 1.5rem;
+    }
+    #tech-skills li {
+        font-size: 1rem;
+    }
+    .tech-logos img {
+        width: 100%;
+        height: 3rem;
+    }
+    #education h4 {
+        font-size: 1.5rem;
+    }
+    #education h5 {
+        font-size: 1.25rem;
+    }
+    #education h6 {
+        font-size: 1rem;
+    }
+    #education li {
+        font-size: 1rem;
+    }
+    #experience h4 {
+        font-size: 1.5rem;
+    }
+    #experience h5 {
+        font-size: 1.25rem;
+    }
+    #experience h6 {
+        font-size: 1rem;
+    }
+    #projects h4 {
+        font-size: 1.25rem;
+    }
+    #projects h5 {
+        font-size: 0.9rem;
+    }
+    #projects h6 {
+        font-size: 1rem;
+    }
+    #projects li {
+        font-size: 1rem;
+    }
+    .project-images-container {
+        margin: 1rem 0;
+    }
+    .certificates-wrapper {
+        flex-wrap: wrap;
+    }
+    .certificate-card {
+        width: 30%;
     }
 }
