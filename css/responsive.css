@@ -4,7 +4,7 @@
         margin: 2rem;
     }
     #welcome {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
     #welcome h1 {
         font-size: 0.8rem;
@@ -18,16 +18,18 @@
     #enterlink {
         font-size: 4rem;
     }
-    header {
-        gap: 1rem;
-   
+
+    header, footer {
+        display: none;
+        /* gap: 1rem;   */
     }
-    header ul {
+    /* header ul {
         flex-wrap: wrap;
     }
     header li {
         font-size: 0.8rem;
-    }
+    } */
+
     .section-icon {
         font-size: 3rem;
     }
@@ -116,18 +118,19 @@
     }
     .certificates-wrapper {
         flex-wrap: wrap;
+        gap: 3rem;
     }
     .certificate-card {
-        width: 30%;
+        width: 40%;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     main {
         margin: 2rem;
     }
     #welcome {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
     #welcome h1 {
         font-size: 0.8rem;
@@ -141,15 +144,18 @@
     #enterlink {
         font-size: 4rem;
     }
-    header {
-        gap: 1rem;  
+
+    header, footer {
+        display: none;
+        /* gap: 1rem;   */
     }
-    header ul {
+    /* header ul {
         flex-wrap: wrap;
     }
     header li {
         font-size: 0.8rem;
-    }
+    } */
+
     .section-icon {
         font-size: 3rem;
     }
@@ -238,9 +244,10 @@
     }
     .certificates-wrapper {
         flex-wrap: wrap;
+        gap: 3rem;
     }
     .certificate-card {
-        width: 30%;
+        width: 40%;
     }
 }
 
@@ -249,7 +256,7 @@
         margin: 2rem;
     }
     #welcome {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
     #welcome h1 {
         font-size: 0.8rem;
@@ -263,15 +270,18 @@
     #enterlink {
         font-size: 4rem;
     }
-    header {
-        gap: 1rem;
+
+    header, footer {
+        display: none;
+        /* gap: 1rem;   */
     }
-    header ul {
+    /* header ul {
         flex-wrap: wrap;
     }
     header li {
         font-size: 0.8rem;
-    }
+    } */
+
     .section-icon {
         font-size: 3rem;
     }
@@ -360,8 +370,9 @@
     }
     .certificates-wrapper {
         flex-wrap: wrap;
+        gap: 3rem;
     }
     .certificate-card {
-        width: 30%;
+        width: 40%;
     }
 }
