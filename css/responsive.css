@@ -59,32 +59,41 @@
 
 @media (min-width: 360px) {
     main {
-        margin: 1rem;
+        margin: 2rem;
     }
     #welcome {
         margin-top: 2rem;
     }
     #welcome h1 {
-        font-size: 1rem;
-    }
-    #welcome h3 {
-        font-size: 1.25rem;
-    }
-    #welcome h2 {
         font-size: 2rem;
     }
+    #welcome h3 {
+        font-size: 2rem;
+    }
+    #welcome h2 {
+        font-size: 3rem;
+    }
+    #enterlink {
+        font-size: 5rem;
+    }
     header li {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     header ul{
         flex-wrap: wrap;
     }
     #about h4 {
-        font-size: 1.25rem;
+        font-size: 3rem;
     }
     #about p {
-        font-size: 1rem;
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+    h5 {
+        font-size: 3rem;
     }
     .contacts-card {
         flex-direction: column-reverse;
@@ -93,13 +102,13 @@
         width: 60%;
     }
     .contacts-info li {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .experience-stats h3 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .experience-stats span {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
     .languages .tech-logos {
         flex-wrap: wrap;
@@ -121,32 +130,41 @@
 
 @media (max-width: 359px) {
     main {
-        margin: 1rem;
+        margin: 2rem;
     }
     #welcome {
         margin-top: 2rem;
     }
     #welcome h1 {
-        font-size: 1rem;
-    }
-    #welcome h3 {
-        font-size: 1.25rem;
-    }
-    #welcome h2 {
         font-size: 2rem;
     }
+    #welcome h3 {
+        font-size: 2rem;
+    }
+    #welcome h2 {
+        font-size: 3rem;
+    }
+    #enterlink {
+        font-size: 5rem;
+    }
     header li {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     header ul{
         flex-wrap: wrap;
     }
     #about h4 {
-        font-size: 1.25rem;
+        font-size: 3rem;
     }
     #about p {
-        font-size: 1rem;
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+    h5 {
+        font-size: 3rem;
     }
     .contacts-card {
         flex-direction: column-reverse;
@@ -155,13 +173,13 @@
         width: 60%;
     }
     .contacts-info li {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .experience-stats h3 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .experience-stats span {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
     .languages .tech-logos {
         flex-wrap: wrap;
