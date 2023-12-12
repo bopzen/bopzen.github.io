@@ -62,60 +62,66 @@
         margin: 2rem;
     }
     #welcome {
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     #welcome h1 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     #welcome h3 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     #welcome h2 {
-        font-size: 3rem;
+        font-size: 6rem;
     }
     #enterlink {
-        font-size: 5rem;
+        font-size: 10rem;
     }
     header li {
-        font-size: 1.5rem;
+        font-size: 3rem;
         text-align: center;
     }
     header ul{
         flex-wrap: wrap;
     }
-    #about h4 {
-        font-size: 3rem;
+    .section-title {
+        font-size: 6rem;
     }
-    #about p {
-        font-size: 2rem;
+    #about h4 {
+        font-size: 5rem;
+    }
+    #about p, p {
+        font-size: 3rem;
     }
     h4 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     h5 {
+        font-size: 5rem;
+    }
+    .why-me ul li {
         font-size: 3rem;
     }
     .contacts-card {
         flex-direction: column-reverse;
     }
     .profile-picture-container {
-        width: 60%;
+        width: 70%;
     }
     .contacts-info li {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .experience-stats h3 {
-        font-size: 5rem;
+        font-size: 10rem;
     }
     .experience-stats span {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
     .languages .tech-logos {
         flex-wrap: wrap;
         justify-content: center;
     }
     #projects h5 {
-        font-size: 1rem;
+        font-size: 3rem;
     }
     .project-images-container {
         margin: 1rem 0;
@@ -133,60 +139,66 @@
         margin: 2rem;
     }
     #welcome {
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     #welcome h1 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     #welcome h3 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     #welcome h2 {
-        font-size: 3rem;
+        font-size: 6rem;
     }
     #enterlink {
-        font-size: 5rem;
+        font-size: 10rem;
     }
     header li {
-        font-size: 1.5rem;
+        font-size: 3rem;
         text-align: center;
     }
     header ul{
         flex-wrap: wrap;
     }
-    #about h4 {
-        font-size: 3rem;
+    .section-title {
+        font-size: 6rem;
     }
-    #about p {
-        font-size: 2rem;
+    #about h4 {
+        font-size: 5rem;
+    }
+    #about p, p {
+        font-size: 3rem;
     }
     h4 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     h5 {
+        font-size: 5rem;
+    }
+    .why-me ul li {
         font-size: 3rem;
     }
     .contacts-card {
         flex-direction: column-reverse;
     }
     .profile-picture-container {
-        width: 60%;
+        width: 70%;
     }
     .contacts-info li {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .experience-stats h3 {
-        font-size: 5rem;
+        font-size: 10rem;
     }
     .experience-stats span {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
     .languages .tech-logos {
         flex-wrap: wrap;
         justify-content: center;
     }
     #projects h5 {
-        font-size: 1rem;
+        font-size: 3rem;
     }
     .project-images-container {
         margin: 1rem 0;
