@@ -1,20 +1,4 @@
-@media (max-width: 1600px) {
-
-}
-
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 800px) {
-
-}
-
-@media (max-width: 600px) {
-
-}
-
-@media (max-width: 414px) {
+@media (max-width: 412px) {
     main {
         margin: 2rem;
     }
@@ -71,3 +55,69 @@
         width: 30%;
     }
 }
+
+
+@media (max-width: 360px) {
+    main {
+        margin: 1rem;
+    }
+    #welcome {
+        margin-top: 2rem;
+    }
+    #welcome h1 {
+        font-size: 1rem;
+    }
+    #welcome h3 {
+        font-size: 1.25rem;
+    }
+    #welcome h2 {
+        font-size: 2rem;
+    }
+    header li {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    header ul{
+        flex-wrap: wrap;
+    }
+    #about h4 {
+        font-size: 1.25rem;
+    }
+    #about p {
+        font-size: 1rem;
+    }
+    .contacts-card {
+        flex-direction: column-reverse;
+    }
+    .profile-picture-container {
+        width: 60%;
+    }
+    .contacts-info li {
+        font-size: 1rem;
+    }
+    .experience-stats h3 {
+        font-size: 3rem;
+    }
+    .experience-stats span {
+        font-size: 0.8rem;
+    }
+    .languages .tech-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #projects h5 {
+        font-size: 1rem;
+    }
+    .project-images-container {
+        margin: 1rem 0;
+    }
+    .certificates-wrapper {
+        flex-wrap: wrap;
+    }
+    .certificate-card {
+        width: 30%;
+    }
+}
+
+
+
