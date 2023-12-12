@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     main {
         margin: 2rem;
     }
