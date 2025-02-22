@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var translateY = -(screenHeight / 2 - element.height / 2) / 6;
         anime({
             targets: element,
-            scale: 4,
+            scale: 3,
             translateY: translateY,
             translateX: translateX,
             easing: 'easeInOutQuad',

@@ -1,5 +1,5 @@
 let typed = new Typed('#print', {
-    strings: ['print("Hello, my name is Boyan")'],
+    strings: ['Console.Write("Hello, my name is Boyan")'],
     typeSpeed: 20,
     onComplete: function () {
       initAOS();

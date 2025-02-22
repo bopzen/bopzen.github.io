@@ -78,6 +78,7 @@ header li:hover, .download:hover {
 .certificates-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-around;
     margin-bottom: 6rem;
@@ -85,8 +86,6 @@ header li:hover, .download:hover {
 
 .diploma-wrapper {
     margin-top: 1rem;
-    width: 10%;
-    height: 10%;
 }
 
 .certificate-card img{
@@ -99,10 +98,10 @@ header li:hover, .download:hover {
     border: 1px solid black;
 }
 
-
 .certificate-card {
     cursor: pointer;
     transition: box-shadow 0.3s ease-in-out;
+    height: 200px;
 }
 
 .certificate-card:hover {
