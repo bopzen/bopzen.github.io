@@ -1,0 +1,104 @@
+body {
+    background-color: #535659;
+}
+.cv-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 4px 2px 8px 0px black;
+}
+
+
+
+header {
+    position: relative
+}
+
+.profile-picture-container {
+    position: absolute;
+    width: 19%;
+    left: 2rem;
+    top: 2rem;
+}
+.profile-picture-container img {
+    width: 100%;
+    border-radius: 50%;
+    border: 6px solid #003366;
+    overflow: hidden;
+}
+
+.header-name {
+    padding: 1rem 1rem 1rem 20rem;
+}
+
+
+.header-introduction {
+    background-color: #0a2642;
+    padding: 1rem 1rem 1rem 20rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #259b9b;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 1rem;
+}
+
+
+
+main {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-left {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 70%;
+}
+.main-right {
+    background-color: #ebebeb;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 8px;
+    width: 30%;
+}
+
+ul {
+    margin: 0;
+}
+
+.education-card, .job-card {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #259b9b
+}
+
+main h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.main-right h3 {
+    margin-top: 1rem;
+}
+
+.period-location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.courses, .job-description {
+    margin-top: 0.4rem;
+}

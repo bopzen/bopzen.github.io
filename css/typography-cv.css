@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+
+body {
+    font-family: Ubuntu, sans-serif;
+    color: #333333;
+}
+
+header {
+    line-height: 1.5;
+}
+
+.main {
+    line-height: 1;
+}
+
+.project-name {
+    line-height: 1;
+    font-weight: 600;
+}
+
+.header-introduction, .header-contacts {
+    color: white;
+}
+
+.header-name h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.header-name h2 {
+    font-weight: 400;
+}
+
+.period-location-container, .time-period {
+    color: #259b9b;
+    font-style: italic;
+}
+.specialty, .job-title {
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+.institution, .company {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.industry {
+    color: grey;
+    font-weight: 400;
+    font-style: italic
+}
