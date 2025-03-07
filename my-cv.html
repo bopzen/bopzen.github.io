@@ -23,8 +23,12 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <link rel="stylesheet" href="/css/style-cv.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
 <body>
+    <div class="download-pdf">
+        <button onclick="downloadPDF()">Download as PDF</button>
+    </div>
     <div class="cv-container">
         <header>
             <div class="profile-picture-container">
@@ -368,5 +372,6 @@
             </div>
         </main>
     </div>
+    <script src="src/download-pdf.js"></script>
 </body>
 </html>

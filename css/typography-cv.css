@@ -68,3 +68,7 @@ header i {
 .fa-link {
     color: #259b9b;
 }
+
+.download-pdf button {
+    font-size: 1.25rem;
+}
