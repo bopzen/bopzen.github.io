@@ -19,7 +19,7 @@ header {
 
 .profile-picture-container {
     position: absolute;
-    width: 19%;
+    width: 18.5%;
     left: 2rem;
     top: 2rem;
 }
@@ -78,8 +78,12 @@ ul {
     margin: 0;
 }
 
+::marker {
+    color: #259b9b;
+}
+
 .education-card, .job-card {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     padding-left: 1rem;
     border-left: 3px solid #259b9b
 }
@@ -101,4 +105,29 @@ main h2 {
 
 .courses, .job-description {
     margin-top: 0.4rem;
+}
+
+.icon-container {
+    
+    width: 50px;
+    height: 50px;
+    background-color: #003366;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.contact div {
+    display: flex;
+    width: 30px;
+    justify-content: center;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
