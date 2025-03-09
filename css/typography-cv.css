@@ -8,14 +8,18 @@
 
 body {
     font-family: Ubuntu, sans-serif;
+    font-size: 0.7rem;
     color: #333333;
 }
 
 header {
-    line-height: 1.5;
+    line-height: 1.25;
+}
+.header-contacts {
+    line-height: 1.75;
 }
 header i {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .main {
@@ -32,25 +36,27 @@ header i {
 }
 
 .header-name h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .header-name h2 {
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 .period-location-container, .time-period {
     color: #259b9b;
     font-style: italic;
+    font-weight: 600;
 }
 .specialty, .job-title {
     font-weight: 800;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 .institution, .company {
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 .industry {
     color: grey;
@@ -59,14 +65,24 @@ header i {
 }
 
 .main-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+
 .section-header {
     color: #003366;
+    font-size: 1.25rem;
+}
+
+.main-right h2 {
+    font-size: 1rem;
 }
 
 .fa-link {
     color: #259b9b;
+}
+.languages span {
+    color: #259b9b;
+    font-style: italic;
 }
 
 .download-pdf button {

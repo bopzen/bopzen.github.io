@@ -27,350 +27,362 @@
 </head>
 <body>
     <div class="download-pdf">
-        <button onclick="downloadPDF()">Download as PDF</button>
+        <button onclick="downloadPDF()">Download as PDF <i class="fa-solid fa-download"></i></button>
     </div>
-    <div class="cv-container">
-        <header>
-            <div class="profile-picture-container">
-                <img src="media/Profile_Picture/boyan_todorov.jpeg" alt="profile-picture">
-            </div>
-            <div class="header-name-introduction">
-                <section class="header-name">
-                    <h1>Boyan Todorov</h1>
-                    <h2>Software Developer .NET</h2>
-                </section>
-                <section class="header-introduction">
-                    Experienced financial markets professional with a strong background in risk management, now working as a Software Developer in the forex industry. Excited to merge my expertise with newfound software development skills, aiming to thrive as a successful Full-Stack Developer.
-                </section>
-            </div>         
-            <section class="header-contacts">
-                <div class="contacts-left">
-                    <ul role="list">
-                        <li class="contact">
-                            <div><i class="fa-solid fa-envelope"></i></div>
-                            <a href="mailto:bdtodorov@gmail.com" target="_blank">bdtodorov@gmail.com</a>
-                        </li>
-                        <li class="contact">
-                            <div>
-                                <i class="fa-solid fa-mobile-screen-button"></i>
-                            </div>
-                            0888534371
-                        </li>
-                        <li class="contact">
-                            <div>
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>                          
-                            Sofia, Bulgaria
-                        </li>
-                    </ul>
+    <div id="cv" class="cv">
+        <div id="cv-container-1" class="cv-container-1">
+            <header>
+                <div class="profile-picture-container">
+                    <img src="media/Profile_Picture/boyan_todorov.jpeg" alt="profile-picture">
                 </div>
-                <div class="contacts-right">
-                    <ul role="list">
-                        <li class="contact">
-                            <div>
-                                <i class="fa-solid fa-globe"></i>
+                <div class="header-name-introduction">
+                    <section class="header-name">
+                        <h1>Boyan Todorov</h1>
+                        <h2>Software Developer .NET</h2>
+                    </section>
+                    <section class="header-introduction">
+                        Experienced financial markets professional with a strong background in risk management, now working as a Software Developer in the forex industry. Excited to merge my expertise with newfound software development skills, aiming to thrive as a successful Full-Stack Developer.
+                    </section>
+                </div>         
+                <section class="header-contacts">
+                    <div class="contacts-left">
+                        <ul role="list">
+                            <li class="contact">
+                                <div><i class="fa-solid fa-envelope"></i></div>
+                                <a href="mailto:bdtodorov@gmail.com" target="_blank">bdtodorov@gmail.com</a>
+                            </li>
+                            <li class="contact">
+                                <div>
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                </div>
+                                0888534371
+                            </li>
+                            <li class="contact">
+                                <div>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>                          
+                                Sofia, Bulgaria
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contacts-right">
+                        <ul role="list">
+                            <li class="contact">
+                                <div>
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                                <a href="https://bopzen.github.io">https://bopzen.github.io</a>
+                            </li>
+                            <li class="contact">
+                                <div>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                                <a href="https://www.linkedin.com/in/boyantodorov">https://www.linkedin.com/in/boyantodorov</a>
+                            </li>
+                            <li class="contact">
+                                <div>
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <a href="https://github.com/bopzen">https://github.com/bopzen</a>
+                            </li>
+                        </ul>          
+                    </div>
+                </section>
+            </header>
+            <main>
+                <div class="main-left">
+                    <section class="education">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-graduation-cap"></i> EDUCATION</h2>
+                        <div class="education-card">
+                            <h3 class="specialty">C# Back-End Developer</h3>
+                            <h4 class="institution"><a href="https://careers.sirma.com/sirmaacademy" target="_blank">Sirma Academy</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">09/2024 - Present</p>
+                                <p class="location">Sofia, Bulgaria</p>
                             </div>
-                            <a href="https://bopzen.github.io">https://bopzen.github.io</a>
-                        </li>
-                        <li class="contact">
-                            <div>
-                                <i class="fa-brands fa-linkedin"></i>
+                            <h5 class="courses">Courses:</h5>
+                            <ul class="education-description">
+                                <li>C# Fundamentals, C# Advanced, C# OOP, SQL, EF Core, ASP.NET Core</li>
+                            </ul>
+                        </div>
+
+                        <div class="education-card">
+                            <h3 class="specialty">JavaScript Front-End Developer</h3>
+                            <h4 class="institution"><a href="https://careers.sirma.com/sirmaacademy" target="_blank">Sirma Academy</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">05/2024 - 09/2024</p>
+                                <p class="location">Sofia, Bulgaria</p>
                             </div>
-                            <a href="https://www.linkedin.com/in/boyantodorov">https://www.linkedin.com/in/boyantodorov</a>
-                        </li>
-                        <li class="contact">
-                            <div>
-                                <i class="fa-brands fa-github"></i>
+                            <h5 class="courses">Courses:</h5>
+                            <ul class="education-description">
+                                <li>JS Fundamentals, JS Advanced, HTML & CSS, Node.JS, Express.JS, MongoDB, React</li>
+                            </ul>
+                        </div>
+
+                        <div class="education-card">
+                            <h3 class="specialty">Python Full-Stack Developer</h3>
+                            <h4 class="institution"><a href="https://softuni.bg/" target="_blank">Software University (softuni.bg)</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">01/2024 - 08/2024</p>
+                                <p class="location">Sofia, Bulgaria</p>
                             </div>
-                            <a href="https://github.com/bopzen">https://github.com/bopzen</a>
-                        </li>
-                    </ul>          
+                            <h5 class="courses">Professional Modules:</h5>
+                            <ul class="education-description">
+                                <li><b>Containers and Cloud</b> and <b> Software Engineering and DevOps</b> - Learning the fundamentals of DevOps, working with Linux Shell, Docker, cloud infrastructure, app monitoring, git, CI/CD pipeline, development workflow</li>
+                                <li><b>React JS</b> -  JSX, Components, Forms, Hooks, Routes, Advanced Techniques</li>
+                            </ul>
+                        </div>
+
+                        <div class="education-card">
+                            <h3 class="specialty">Python Web Developer</h3>
+                            <h4 class="institution"><a href="https://softuni.bg/" target="_blank">Software University (softuni.bg)</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">04/2022 - 12/2023</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h5 class="courses">Professional Modules:</h5>
+                            <ul class="education-description">
+                                <li><b>Python Fundamentals</b> - Learning the fundamental principles of programming, data types, lists, dictionaries, text processing, regex</li>
+                                <li><b>Python Advanced</b> and <b>OOP</b> - Working with more advanced data structures, learning the principles of OOP, unit testing </li>
+                                <li><b>JS Front-End</b> - Learning the main principles of front-end development with JS, HTML and CSS, working with REST API </li>
+                                <li><b>Python Web Development</b> - Working with Django Framework and learning the principles of MVT. Development of full web application for project defense</li>
+                                <li><b>PostgreSQL</b> and <b>Python ORM</b> - Knowledge of database systems, SQL, Django ORM and SQLAlchemy </li>
+                            </ul>
+                        </div>
+
+                        <div class="education-card">
+                            <h3 class="specialty">Finance Master Degree</h3>
+                            <h4 class="institution"><a href="https://unwe.bg/" target="_blank">University of National and World Economy</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">2007 - 2009</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h5 class="courses">Courses:</h5>
+                            <ul class="education-description">
+                                <li>Financial Management, Financial Engineering, Money Theory and Money Politics 2nd level, Cost Benefit Analysis, Bank Management, Portfolio Management, International Financial Organizations, etc.</li>
+                            </ul>
+                        </div>
+
+                        <div class="education-card">
+                            <h3 class="specialty">Finance Bachelor Degree</h3>
+                            <h4 class="institution"><a href="https://unwe.bg/" target="_blank">University of National and World Economy</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">2001 - 2006</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h5 class="courses">Courses:</h5>
+                            <ul class="education-description">
+                                <li>Banking, Public Finance, Corporate Finance, Investments, Insurance, Accounting, etc.</li>
+                            </ul>
+                        </div>
+
+                        <div class="education-card">
+                            <h3 class="specialty">High School</h3>
+                            <h4 class="institution">Mathematical High School "Geo Milev"</h4>
+                            <div class="period-location-container">
+                                <p class="time-period">1996 - 2001</p>
+                                <p class="location">Pleven, Bulgaria</p>
+                            </div>
+                            <h5 class="courses">Courses:</h5>
+                            <ul class="education-description">
+                                <li>Mathematics, English, Physics, Computer Science</li>
+                            </ul>
+                        </div>
+                    </section>
                 </div>
-            </section>
-        </header>
-        <main>
-            <div class="main-left">
-                <section class="education">
-                    <h2 class="section-header"><i class="main-icon fa-solid fa-graduation-cap"></i> EDUCATION</h2>
-                    <div class="education-card">
-                        <h3 class="specialty">C# Back-End Developer</h3>
-                        <h4 class="institution"><a href="https://careers.sirma.com/sirmaacademy" target="_blank">Sirma Academy</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">09/2024 - Present</p>
-                            <p class="location">Sofia, Bulgaria</p>
-                        </div>
-                        <h5 class="courses">Courses:</h5>
-                        <ul class="education-description">
-                            <li>C# Fundamentals, C# Advanced, C# OOP, SQL, EF Core, ASP.NET Core</li>
-                        </ul>
-                    </div>
+                <div class="main-right">
+                    <section class="technical-skills">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-gears"></i> TECHNICAL SKILLS</h2>
+                        <h3>Programming Languages</h3>
+                        <p>C#, Python, JavaScript, HTML, CSS</p>
+                        <h3>Frameworks and libraries</h3>
+                        <p>ASP.NET Core, EF Core, Django, SQLAlchemy, Selenium, Pandas, React</p>
+                        <h3>Databases</h3>
+                        <p>MS SQL, PostgreSQL, MySQL, MongoDB</p>
+                        <h3>Tools</h3>
+                        <p>Visual Studio,  Pycharm, VS Code,  SSMS, PGAdmin, MySQL Workbench, Docker, Terraform, Azure, GitHub, GitLab, Azure DevOps, Postman</p>
+                    </section>
 
-                    <div class="education-card">
-                        <h3 class="specialty">JavaScript Front-End Developer</h3>
-                        <h4 class="institution"><a href="https://careers.sirma.com/sirmaacademy" target="_blank">Sirma Academy</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">05/2024 - 09/2024</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                    <section class="personal-projects">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-laptop-code"></i> PERSONAL PROJECTS</h2>
+                        <div class="project-card">
+                            <h3 class="project-name">BarberBook - web app for barbershops booking and management</h3>
+                            <p class="time-period">07/2023 - 08/2023</p>
+                            <ul>
+                                <li>Tech: Django, JS, HTML, CSS, PostgreSQL</li>
+                                <li>Defense project for SoftUni Python Web module graduation, which won the award for best project of the class <b>(1st place)</b></li>
+                                <li><a href="https://github.com/bopzen/SoftUni_Python_Web_Project_Defense_BarberBook" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
+                                <li><a href="http://barberbook.pythonanywhere.com/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
+                            </ul>
                         </div>
-                        <h5 class="courses">Courses:</h5>
-                        <ul class="education-description">
-                            <li>JS Fundamentals, JS Advanced, HTML & CSS, Node.JS, Express.JS, MongoDB, React</li>
-                        </ul>
-                    </div>
 
-                    <div class="education-card">
-                        <h3 class="specialty">Python Full-Stack Developer</h3>
-                        <h4 class="institution"><a href="https://softuni.bg/" target="_blank">Software University (softuni.bg)</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">01/2024 - 08/2024</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                        <div class="project-card">
+                            <h3 class="project-name">RestaurantFinder - web app for catalog of nearby restaurants in the area</h3>
+                            <p class="time-period">07/2024 - 08/2024</p>
+                            <ul>
+                                <li>Tech: React,  LeafLet Maps Library, CSS  </li>
+                                <li>Defense project for SoftUni's React Course </li>
+                                <li><a href="https://github.com/bopzen/RestaurantFinder" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
+                                <li><a href="https://restaurantfinder-fe.onrender.com/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
+                            </ul>
                         </div>
-                        <h5 class="courses">Professional Modules:</h5>
-                        <ul class="education-description">
-                            <li><b>Containers and Cloud</b> and <b> Software Engineering and DevOps</b> - Learning the fundamentals of DevOps, working with Linux Shell, Docker, cloud infrastructure, app monitoring, git, CI/CD pipeline, development workflow</li>
-                            <li><b>React JS</b> -  JSX, Components, Forms, Hooks, Routes, Advanced Techniques</li>
-                        </ul>
-                    </div>
 
-                    <div class="education-card">
-                        <h3 class="specialty">Python Web Developer</h3>
-                        <h4 class="institution"><a href="https://softuni.bg/" target="_blank">Software University (softuni.bg)</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">04/2022 - 12/2023</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                        <div class="project-card">
+                            <h3 class="project-name">Euro2024Results - web app for all results from the UEFA 2024 Championship</h3>
+                            <p class="time-period">09/2024 - 09/2024</p>
+                            <ul>
+                                <li>Tech: React, CSS</li>
+                                <li>Final exam defense project for Sirma Academy JS Front-End 2024 course</li>
+                                <li><a href="https://github.com/bopzen/Euro2024Results" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
+                                <li><a href="https://euro2024results.onrender.com/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
+                            </ul>
                         </div>
-                        <h5 class="courses">Professional Modules:</h5>
-                        <ul class="education-description">
-                            <li><b>Python Fundamentals</b> - Learning the fundamental principles of programming, data types, lists, dictionaries, text processing, regex</li>
-                            <li><b>Python Advanced</b> and <b>OOP</b> - Working with more advanced data structures, learning the principles of OOP, unit testing </li>
-                            <li><b>JS Front-End</b> - Learning the main principles of front-end development with JS, HTML and CSS, working with REST API </li>
-                            <li><b>Python Web Development</b> - Working with Django Framework and learning the principles of MVT. Development of full web application for project defense</li>
-                            <li><b>PostgreSQL</b> and <b>Python ORM</b> - Knowledge of database systems, SQL, Django ORM and SQLAlchemy </li>
-                        </ul>
-                    </div>
 
-                    <div class="education-card">
-                        <h3 class="specialty">Finance Master Degree</h3>
-                        <h4 class="institution"><a href="https://unwe.bg/" target="_blank">University of National and World Economy</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">2007 - 2009</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                        <div class="project-card">
+                            <h3 class="project-name">Personal Website - about me, my experience and my portfolio</h3>
+                            <p class="time-period">12/2023 - Present</p>
+                            <ul>
+                                <li>Tech: JS, HTML, CSS</li>
+                                <li><a href="https://github.com/bopzen/bopzen.github.io" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
+                                <li><a href="https://bopzen.github.io/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
+                            </ul>
                         </div>
-                        <h5 class="courses">Courses:</h5>
-                        <ul class="education-description">
-                            <li>Financial Management, Financial Engineering, Money Theory and Money Politics 2nd level, Cost Benefit Analysis, Bank Management, Portfolio Management, International Financial Organizations, etc.</li>
-                        </ul>
-                    </div>
+                    </section>
+                </div>
+            </main>
+        </div>
 
-                    <div class="education-card">
-                        <h3 class="specialty">Finance Bachelor Degree</h3>
-                        <h4 class="institution"><a href="https://unwe.bg/" target="_blank">University of National and World Economy</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">2001 - 2006</p>
-                            <p class="location">Sofia, Bulgaria</p>
+        <div id="cv-container-2" class="cv-container-2">
+            <main>
+                <div class="main-left">
+                    <section class="work-experience">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-briefcase"></i> WORK EXPERIENCE</h2>
+                        <div class="job-card">
+                            <h3 class="job-title">Software Developer .NET</h3>
+                            <h4 class="company"><a href="https://www.activtrades.com/" target="_blank">Activtrades Plc Sofia Branch</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">02/2025 - Present</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h4 class="industry">Forex and CFD Broker</h4>
+                            <h5 class="job-description">Job Description:</h5>
+                            <p>Developing and maintaining the company's main back-office software using <b>C#, .NET Core, ASP.NET MVC/Web API</b>. Developing frontend components using <b>HTML, CSS, JavaScript</b>. Participating in the integration of third-party APIs and services. Working with<b> SQL Server</b> and <b>MongoDB</b> to design, query, and optimize databases. Debugging, testing, and troubleshooting software issues to improve performance and reliability. Writing clean, efficient, and well-documented code following best practices. Collaborating with other developers and departments to implement new features. Using Git for version control and <b>Azure DevOps</b> for CI/CD and project management, and participating in code reviews.</p>
                         </div>
-                        <h5 class="courses">Courses:</h5>
-                        <ul class="education-description">
-                            <li>Banking, Public Finance, Corporate Finance, Investments, Insurance, Accounting, etc.</li>
-                        </ul>
-                    </div>
 
-                    <div class="education-card">
-                        <h3 class="specialty">High School</h3>
-                        <h4 class="institution">Mathematical High School "Geo Milev"</h4>
-                        <div class="period-location-container">
-                            <p class="time-period">1996 - 2001</p>
-                            <p class="location">Pleven, Bulgaria</p>
+                        <div class="job-card">
+                            <h3 class="job-title">Senior Risk Manager</h3>
+                            <h4 class="company"><a href="https://www.activtrades.com/" target="_blank">Activtrades Plc Sofia Branch</a></h4>
+                            <div class="period-location-container">
+                                <p class="time-period">02/2011 - 01/2025</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h4 class="industry">Forex and CFD Broker</h4>
+                            <h5 class="job-description">Job Description:</h5>
+                            <p>Risk management of the clients' trading activity and protecting the company from frauds. Managing the total exposure of the broker. Monitoring all crucial systems.. Helping customer support for the most difficult cases and problems. Preparing daily reports and various market researches for the management. Coding custom complex <b>SQL </b>queries for advanced data analysis. Automation of many risk processes using <b>Python </b>scripts. Actively participating in the software development process with a great contribution in the integration of back office system, trading server, web and mobile platforms, plugins, FIX API connections and other in house software solutions. Preparing requirements, change requests and approving UATs.</p>
                         </div>
-                        <h5 class="courses">Courses:</h5>
-                        <ul class="education-description">
-                            <li>Mathematics, English, Physics, Computer Science</li>
-                        </ul>
-                    </div>
-                </section>
 
-                <section class="work-experience">
-                    <h2 class="section-header"><i class="main-icon fa-solid fa-briefcase"></i> WORK EXPERIENCE</h2>
-                    <div class="job-card">
-                        <h3 class="job-title">Software Developer .NET</h3>
-                        <h4 class="company"><a href="https://www.activtrades.com/" target="_blank">Activtrades Plc Sofia Branch</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">02/2025 - Present</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                        <div class="job-card">
+                            <h3 class="job-title">Financial Markets Dealer</h3>
+                            <h4 class="company">Bulbrokers EAD</h4>
+                            <div class="period-location-container">
+                                <p class="time-period">08/2007 - 01/2011</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h4 class="industry">Forex and CFD Broker</h4>
+                            <h5 class="job-description">Job Description:</h5>
+                            <p>Managing the trading services on Forex and financial markets. Customer service, dealing and brokerage. Monitoring and support of all crucial systems. Risk management of clients’ net exposures, coverage and speculative trading. Preparing daily fundamental and technical analyses. Preparing daily reports and various market researches for the management.</p>
                         </div>
-                        <h4 class="industry">Forex and CFD Broker</h4>
-                        <h5 class="job-description">Job Description:</h5>
-                        <p>Developing and maintaining the company's main back-office software using <b>C#, .NET Core, ASP.NET MVC/Web API</b>. Developing frontend components using <b>HTML, CSS, JavaScript</b>. Participating in the integration of third-party APIs and services. Working with<b> SQL Server</b> and <b>MongoDB</b> to design, query, and optimize databases. Debugging, testing, and troubleshooting software issues to improve performance and reliability. Writing clean, efficient, and well-documented code following best practices. Collaborating with other developers and departments to implement new features. Using Git for version control and <b>Azure DevOps</b> for CI/CD and project management, and participating in code reviews.</p>
-                    </div>
 
-                    <div class="job-card">
-                        <h3 class="job-title">Senior Risk Manager</h3>
-                        <h4 class="company"><a href="https://www.activtrades.com/" target="_blank">Activtrades Plc Sofia Branch</a></h4>
-                        <div class="period-location-container">
-                            <p class="time-period">02/2011 - 01/2025</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                        <div class="job-card">
+                            <h3 class="job-title">Account Officer Individuals</h3>
+                            <h4 class="company">Societe Generale Expressbank AD</h4>
+                            <div class="period-location-container">
+                                <p class="time-period">04/2007 - 08/2007</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h4 class="industry">Bank</h4>
+                            <h5 class="job-description">Job Description:</h5>
+                            <p>Customer service at the front office. Direct sales and presentation of all the bank's products - accounts, deposits, debit and credit cards and loans. Creating a personal portfolio of clients, following targets and reporting results to the management. Processing applications for consumer loans.</p>
                         </div>
-                        <h4 class="industry">Forex and CFD Broker</h4>
-                        <h5 class="job-description">Job Description:</h5>
-                        <p>Risk management of the clients' trading activity and protecting the company from frauds. Managing the total exposure of the broker. Monitoring all crucial systems.. Helping customer support for the most difficult cases and problems. Preparing daily reports and various market researches for the management. Coding custom complex <b>SQL </b>queries for advanced data analysis. Automation of many risk processes using <b>Python </b>scripts. Actively participating in the software development process with a great contribution in the integration of back office system, trading server, web and mobile platforms, plugins, FIX API connections and other in house software solutions. Preparing requirements, change requests and approving UATs.</p>
-                    </div>
 
-                    <div class="job-card">
-                        <h3 class="job-title">Financial Markets Dealer</h3>
-                        <h4 class="company">Bulbrokers EAD</h4>
-                        <div class="period-location-container">
-                            <p class="time-period">08/2007 - 01/2011</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                        <div class="job-card">
+                            <h3 class="job-title">Counter Teller</h3>
+                            <h4 class="company">Societe Generale Expressbank AD</h4>
+                            <div class="period-location-container">
+                                <p class="time-period">08/2005 - 04/2007</p>
+                                <p class="location">Sofia, Bulgaria</p>
+                            </div>
+                            <h4 class="industry">Bank</h4>
+                            <h5 class="job-description">Job Description:</h5>
+                            <p>Customer service at the front office, working directly with money. Processing withdrawals and deposits, bank and international transfers. Managing the cash activities in the branch, and in charge with the ATM support and management. Assisting for direct sales of the products and for the loan applications. Strong teamwork environment.</p>
                         </div>
-                        <h4 class="industry">Forex and CFD Broker</h4>
-                        <h5 class="job-description">Job Description:</h5>
-                        <p>Managing the trading services on Forex and financial markets. Customer service, dealing and brokerage. Monitoring and support of all crucial systems. Risk management of clients’ net exposures, coverage and speculative trading. Preparing daily fundamental and technical analyses. Preparing daily reports and various market researches for the management.</p>
-                    </div>
-
-                    <div class="job-card">
-                        <h3 class="job-title">Account Officer Individuals</h3>
-                        <h4 class="company">Societe Generale Expressbank AD</h4>
-                        <div class="period-location-container">
-                            <p class="time-period">04/2007 - 08/2007</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                    </section>
+                </div>
+                <div class="main-right">
+                    <section class="personal-projects">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-laptop-code"></i> PERSONAL PROJECTS</h2>
+                        <div class="project-card">
+                            <h3 class="project-name">CV Link - web app for recruiting software developers by browsing their profiles</h3>
+                            <p class="time-period">02/2024 - Present</p>
+                            <ul>
+                                <li>Tech: Django, JS, HTML, CSS, PostgreSQL</li>
+                                <li>Not finished yet</li>
+                                <li><a href="https://github.com/bopzen/CV_Link" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
+                            </ul>
                         </div>
-                        <h4 class="industry">Bank</h4>
-                        <h5 class="job-description">Job Description:</h5>
-                        <p>Customer service at the front office. Direct sales and presentation of all the bank's products - accounts, deposits, debit and credit cards and loans. Creating a personal portfolio of clients, following targets and reporting results to the management. Processing applications for consumer loans.</p>
-                    </div>
 
-                    <div class="job-card">
-                        <h3 class="job-title">Counter Teller</h3>
-                        <h4 class="company">Societe Generale Expressbank AD</h4>
-                        <div class="period-location-container">
-                            <p class="time-period">08/2005 - 04/2007</p>
-                            <p class="location">Sofia, Bulgaria</p>
+                        <div class="project-card">
+                            <h3 class="project-name">Risk Reports Tool - custom reporting system using company's back-office DB</h3>
+                            <p class="time-period">08/2023 - Present</p>
+                            <ul>
+                                <li>Tech: Django, JS, HTML, CSS, MSSQL </li>
+                                <li>Visualizing and exporting in CSV different custom reports for my department</li>
+                                <li>GitHub Link - private repo due to sensitive information</li>
+                            </ul>
                         </div>
-                        <h4 class="industry">Bank</h4>
-                        <h5 class="job-description">Job Description:</h5>
-                        <p>Customer service at the front office, working directly with money. Processing withdrawals and deposits, bank and international transfers. Managing the cash activities in the branch, and in charge with the ATM support and management. Assisting for direct sales of the products and for the loan applications. Strong teamwork environment.</p>
-                    </div>
-                </section>
-            </div>
-            <div class="main-right">
-                <section class="technical-skills">
-                    <h2 class="section-header"><i class="main-icon fa-solid fa-gears"></i> TECHNICAL SKILLS</h2>
-                    <h3>Programming Languages</h3>
-                    <p>C#, Python, JavaScript, HTML, CSS</p>
-                    <h3>Frameworks and libraries</h3>
-                    <p>ASP.NET Core, EF Core, Django, SQLAlchemy, Selenium, Pandas, React</p>
-                    <h3>Databases</h3>
-                    <p>MS SQL, PostgreSQL, MySQL, MongoDB</p>
-                    <h3>Tools</h3>
-                    <p>Visual Studio,  Pycharm, VS Code,  SSMS, PGAdmin, MySQL Workbench, Docker, Terraform, Azure, GitHub, GitLab, Azure DevOps, Postman</p>
-                </section>
+                    </section>
 
-                <section class="personal-projects">
-                    <h2 class="section-header"><i class="main-icon fa-solid fa-laptop-code"></i> PERSONAL PROJECTS</h2>
-                    <div class="project-card">
-                        <h3 class="project-name">BarberBook - web app for barbershops booking and management</h3>
-                        <p class="time-period">07/2023 - 08/2023</p>
+                    <section class="soft-skills">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-brain"></i> SOFT SKILLS</h2>
                         <ul>
-                            <li>Tech: Django, JS, HTML, CSS, PostgreSQL</li>
-                            <li>This is my defense project for SoftUni Python Web module graduation, which won the award for best project of the class (1st place)</li>
-                            <li><a href="https://github.com/bopzen/SoftUni_Python_Web_Project_Defense_BarberBook" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
-                            <li><a href="http://barberbook.pythonanywhere.com/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
+                            <li>Attention to details</li>
+                            <li>Problem-solving</li>
+                            <li>Responsibility</li>
+                            <li>Teamwork</li>
+                            <li>Analysis</li>
                         </ul>
-                    </div>
+                    </section>
 
-                    <div class="project-card">
-                        <h3 class="project-name">RestaurantFinder - web app for catalog of nearby restaurants in the area</h3>
-                        <p class="time-period">07/2024 - 08/2024</p>
+                    <section class="languages">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-language"></i> LANGUAGES</h2>
                         <ul>
-                            <li>Tech: React,  LeafLet Maps Library, CSS  </li>
-                            <li>This is my defense project for SoftUni's React Course </li>
-                            <li><a href="https://github.com/bopzen/RestaurantFinder" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
-                            <li><a href="https://restaurantfinder-fe.onrender.com/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
+                            <li>English - <span>Full Professional Proficiency</span></li>
+                            <li>Bulgarian - <span>Native</span></li>
                         </ul>
-                    </div>
+                    </section>
 
-                    <div class="project-card">
-                        <h3 class="project-name">Euro2024Results - web app for all results from the UEFA 2024 Championship</h3>
-                        <p class="time-period">09/2024 - 09/2024</p>
+                    <section class="certificates">
+                        <h2 class="section-header"><i class="main-icon fa-solid fa-award"></i> CERTIFICATES</h2>               
                         <ul>
-                            <li>Tech: React, CSS</li>
-                            <li>This is my final exam defense project for Sirma Academy JS Front-End 2024 course</li>
-                            <li><a href="https://github.com/bopzen/Euro2024Results" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
-                            <li><a href="https://euro2024results.onrender.com/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/133864/60b46458" target="_blank">Softuni Programming Basics <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/139009/ae6503f3" target="_blank">Softuni Programming Fundamentals with Python <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/143047/3a66ae54" target="_blank">Softuni Python Advanced <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/150397/a15bd220" target="_blank">SoftUni Python OOP <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/162937/b93a9b98" target="_blank">Softuni HTML & CSS <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/168374/053be3dd" target="_blank">Softuni JS Front-End <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/177784/1612e751" target="_blank">Softuni Python Web Basics <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/182321/dfdeea1c" target="_blank">Softuni Python Web Framework <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/186111/cfae115d" target="_blank">Softuni PostgreSQL <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/193875/05c1a0e7" target="_blank">Softuni Python ORM <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/206938/911c66e5" target="_blank">Softuni Containers and Clouds <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/213309/79af2087" target="_blank">Softuni Software Engineering and DevOps <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://softuni.bg/certificates/details/223049/8c8332a5" target="_blank">SoftUni ReactJS <i class="fa-solid fa-link"></i></a></li>
+                            <li><a href="https://github.com/bopzen/bopzen/blob/main/Sirma%20Academy%20Certificates/JavaScript%20Front-End%20Track%20-%20September%202024%20-%20Certificate.pdf" target="_blank">Sirma Academy JavaScript Front-End Track <i class="fa-solid fa-link"></i></a></li>
                         </ul>
-                    </div>
-
-                    <div class="project-card">
-                        <h3 class="project-name">Personal Website - about me, my experience and my portfolio</h3>
-                        <p class="time-period">12/2023 - Present</p>
-                        <ul>
-                            <li>Tech: JS, HTML, CSS</li>
-                            <li><a href="https://github.com/bopzen/bopzen.github.io" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
-                            <li><a href="https://bopzen.github.io/" target="_blank">Deployed Project Link <i class="fa-solid fa-link"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="project-card">
-                        <h3 class="project-name">CV Link - web app for recruiting software developers by browsing their profiles</h3>
-                        <p class="time-period">02/2024 - Present</p>
-                        <ul>
-                            <li>Tech: Django, JS, HTML, CSS, PostgreSQL</li>
-                            <li>Not finished yet</li>
-                            <li><a href="https://github.com/bopzen/CV_Link" target="_blank">GitHub Link <i class="fa-solid fa-link"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="project-card">
-                        <h3 class="project-name">Risk Reports Tool - custom reporting system using company's back-office DB</h3>
-                        <p class="time-period">08/2023 - Present</p>
-                        <ul>
-                            <li>Tech: Django, JS, HTML, CSS, MSSQL </li>
-                            <li>Visualizing and exporting in CSV different custom reports for my department</li>
-                            <li>GitHub Link - private repo due to sensitive information</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section class="soft-skills">
-                    <h2 class="section-header"><i class="main-icon fa-solid fa-brain"></i> SOFT SKILLS</h2>
-                    <ul>
-                        <li>Attention to details</li>
-                        <li>Problem-solving</li>
-                        <li>Responsibility</li>
-                        <li>Teamwork</li>
-                        <li>Analysis</li>
-                    </ul>
-                </section>
-
-                <section class="languages">
-                    <h2 class="section-header"><i class="main-icon fa-solid fa-language"></i> LANGUAGES</h2>
-                    <ul>
-                        <li>English - Full Professional Proficiency</li>
-                        <li>Bulgarian - Native</li>
-                    </ul>
-                </section>
-
-                <section class="certificates">
-                    <h2 class="section-header"><i class="main-icon fa-solid fa-award"></i> CERTIFICATES</h2>               
-                    <ul>
-                        <li><a href="https://softuni.bg/certificates/details/133864/60b46458" target="_blank">Softuni Programming Basics <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/139009/ae6503f3" target="_blank">Softuni Programming Fundamentals with Python <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/143047/3a66ae54" target="_blank">Softuni Python Advanced <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/150397/a15bd220" target="_blank">SoftUni Python OOP <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/162937/b93a9b98" target="_blank">Softuni HTML & CSS <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/168374/053be3dd" target="_blank">Softuni JS Front-End <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/177784/1612e751" target="_blank">Softuni Python Web Basics <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/182321/dfdeea1c" target="_blank">Softuni Python Web Framework <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/186111/cfae115d" target="_blank">Softuni PostgreSQL <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/193875/05c1a0e7" target="_blank">Softuni Python ORM <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/206938/911c66e5" target="_blank">Softuni Containers and Clouds <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/213309/79af2087" target="_blank">Softuni Software Engineering and DevOps <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://softuni.bg/certificates/details/223049/8c8332a5" target="_blank">SoftUni ReactJS <i class="fa-solid fa-link"></i></a></li>
-                        <li><a href="https://github.com/bopzen/bopzen/blob/main/Sirma%20Academy%20Certificates/JavaScript%20Front-End%20Track%20-%20September%202024%20-%20Certificate.pdf" target="_blank">Sirma Academy JavaScript Front-End Track <i class="fa-solid fa-link"></i></a></li>
-                    </ul>
-                </section>
-            </div>
-        </main>
+                    </section>
+                </div>
+            </main>
+        </div>
     </div>
     <script src="src/download-pdf.js"></script>
 </body>
